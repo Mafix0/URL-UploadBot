@@ -24,10 +24,10 @@ class Config(object):
     
     PROCESS_MAX_TIMEOUT = 3600
     
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = "5956062507"
 
     SESSION_NAME = "UploadLinkToFileBot"
     
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = "mongodb+srv://UploadBot:Aail7172@cluster0.bjeypjj.mongodb.net/?retryWrites=true&w=majority"
 
     MAX_RESULTS = "50"
